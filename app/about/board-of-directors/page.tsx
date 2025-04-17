@@ -1,41 +1,49 @@
-import Image from "next/image"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import Image from "next/image";
 
 const directors = [
   {
-    name: "Maria Santos",
+    name: "Cyril Manatad",
     position: "Chairperson",
-    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1887&auto=format&fit=crop",
-    bio: "With over 20 years of experience in cooperative management, Maria leads BMPC's strategic direction and governance.",
+    image:
+      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1887&auto=format&fit=crop",
+
+    bio: "With over 20 years of experience in cooperative management, Sir Cy leads BMPC's strategic direction and governance.",
   },
   {
-    name: "Juan dela Cruz",
+    name: "Roel ",
     position: "Vice Chairperson",
-    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=1770&auto=format&fit=crop",
-    bio: "Juan brings extensive financial expertise and has been instrumental in BMPC's growth over the past decade.",
+    image:
+      "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=1770&auto=format&fit=crop",
+    bio: "Roel brings extensive financial expertise and has been instrumental in BMPC's growth over the past decade.",
   },
   {
-    name: "Elena Rodriguez",
+    name: "Ross",
     position: "Secretary",
-    image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=1961&auto=format&fit=crop",
-    bio: "Elena oversees BMPC's administrative functions and ensures compliance with regulatory requirements.",
+    image:
+      "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=1961&auto=format&fit=crop",
+    bio: "Ross oversees BMPC's administrative functions and ensures compliance with regulatory requirements.",
   },
   {
-    name: "Roberto Tan",
+    name: "Ravy",
     position: "Treasurer",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1887&auto=format&fit=crop",
-    bio: "Roberto manages BMPC's financial operations and investment strategies with precision and foresight.",
+    image:
+      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1887&auto=format&fit=crop",
+    bio: "Ravy manages BMPC's financial operations and investment strategies with precision and foresight.",
   },
-]
+];
 
 export default function BoardOfDirectorsPage() {
   return (
-    <div className="container py-12">
+    <div className="container mx-auto max-w-7xl py-12">
       <h1 className="mb-8 text-4xl font-bold">Board of Directors</h1>
-      
+
       <div className="mb-12">
         <p className="text-muted-foreground">
-          Our Board of Directors brings together experienced professionals committed to BMPC's mission of financial empowerment and community development. Each member contributes unique expertise to guide our cooperative's growth and success.
+          Our Board of Directors brings together experienced professionals
+          committed to BMPC's mission of financial empowerment and community
+          development. Each member contributes unique expertise to guide our
+          cooperative's growth and success.
         </p>
       </div>
 
@@ -57,7 +65,9 @@ export default function BoardOfDirectorsPage() {
                   <p className="text-sm text-primary">{director.position}</p>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-sm text-muted-foreground">{director.bio}</p>
+                  <p className="text-sm text-muted-foreground">
+                    {director.bio}
+                  </p>
                 </CardContent>
               </div>
             </div>
@@ -71,11 +81,13 @@ export default function BoardOfDirectorsPage() {
           {[
             {
               name: "Audit Committee",
-              description: "Oversees financial reporting, internal controls, and compliance",
+              description:
+                "Oversees financial reporting, internal controls, and compliance",
             },
             {
               name: "Credit Committee",
-              description: "Reviews and approves loan applications, sets lending policies",
+              description:
+                "Reviews and approves loan applications, sets lending policies",
             },
             {
               name: "Education Committee",
@@ -87,12 +99,14 @@ export default function BoardOfDirectorsPage() {
                 <CardTitle className="text-lg">{committee.name}</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-sm text-muted-foreground">{committee.description}</p>
+                <p className="text-sm text-muted-foreground">
+                  {committee.description}
+                </p>
               </CardContent>
             </Card>
           ))}
         </div>
       </div>
     </div>
-  )
+  );
 }

@@ -60,7 +60,7 @@ const events = [
 
 export default function GalleryPage() {
   return (
-    <div className="container py-12">
+    <div className="container mx-auto py-12">
       <h1 className="mb-8 text-4xl font-bold text-center">Event Gallery</h1>
 
       <div className="mb-12 max-w-3xl mx-auto text-center">

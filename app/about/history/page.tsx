@@ -1,8 +1,8 @@
-import Image from "next/image"
+import Image from "next/image";
 
 export default function HistoryPage() {
   return (
-    <div className="container py-12">
+    <div className="container mx-auto max-w-7xl py-12">
       <h1 className="mb-8 text-4xl font-bold">Our History</h1>
       <div className="grid gap-12">
         <div className="grid gap-8 md:grid-cols-2 md:items-center">
@@ -15,9 +15,15 @@ export default function HistoryPage() {
             />
           </div>
           <div>
-            <h2 className="mb-4 text-2xl font-semibold">The Beginning (1995)</h2>
+            <h2 className="mb-4 text-2xl font-semibold">
+              The Beginning (1995)
+            </h2>
             <p className="text-muted-foreground">
-              BMPC was founded by a group of visionary residents in Bacayan who recognized the need for a community-based financial institution. Starting with just 50 members and a small office, we began our journey to empower the local community through financial cooperation.
+              BMPC was founded by a group of visionary residents in Bacayan who
+              recognized the need for a community-based financial institution.
+              Starting with just 50 members and a small office, we began our
+              journey to empower the local community through financial
+              cooperation.
             </p>
           </div>
         </div>
@@ -32,9 +38,14 @@ export default function HistoryPage() {
             />
           </div>
           <div>
-            <h2 className="mb-4 text-2xl font-semibold">Growth & Expansion (2005-2015)</h2>
+            <h2 className="mb-4 text-2xl font-semibold">
+              Growth & Expansion (2005-2015)
+            </h2>
             <p className="text-muted-foreground">
-              The decade saw tremendous growth as we expanded our services and membership base. We introduced new financial products, modernized our systems, and established multiple branches to better serve our growing community.
+              The decade saw tremendous growth as we expanded our services and
+              membership base. We introduced new financial products, modernized
+              our systems, and established multiple branches to better serve our
+              growing community.
             </p>
           </div>
         </div>
@@ -51,11 +62,14 @@ export default function HistoryPage() {
           <div>
             <h2 className="mb-4 text-2xl font-semibold">BMPC Today</h2>
             <p className="text-muted-foreground">
-              Today, BMPC stands as one of the leading cooperatives in the region, serving thousands of members with a comprehensive range of financial services. Our commitment to community development and financial inclusion remains as strong as ever.
+              Today, BMPC stands as one of the leading cooperatives in the
+              region, serving thousands of members with a comprehensive range of
+              financial services. Our commitment to community development and
+              financial inclusion remains as strong as ever.
             </p>
           </div>
         </div>
       </div>
     </div>
-  )
+  );
 }

@@ -1,14 +1,16 @@
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Award, Star, Trophy } from "lucide-react"
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Award, Star, Trophy } from "lucide-react";
 
 export default function AwardsPage() {
   return (
-    <div className="container py-12">
+    <div className="container mx-auto max-w-7xl py-12">
       <h1 className="mb-8 text-4xl font-bold">Awards & Distinctions</h1>
-      
+
       <div className="mb-12">
         <p className="text-muted-foreground">
-          BMPC has been recognized for its excellence in cooperative management, member service, and community impact. These awards reflect our commitment to our mission and values.
+          BMPC has been recognized for its excellence in cooperative management,
+          member service, and community impact. These awards reflect our
+          commitment to our mission and values.
         </p>
       </div>
 
@@ -18,12 +20,15 @@ export default function AwardsPage() {
           <Card>
             <CardHeader>
               <Trophy className="h-8 w-8 text-primary" />
-              <CardTitle className="mt-4">Best Cooperative of the Year</CardTitle>
+              <CardTitle className="mt-4">
+                Best Cooperative of the Year
+              </CardTitle>
               <p className="text-sm text-muted-foreground">2023</p>
             </CardHeader>
             <CardContent>
               <p className="text-sm text-muted-foreground">
-                Awarded by the Cooperative Development Authority for excellence in financial management and member service.
+                Awarded by the Cooperative Development Authority for excellence
+                in financial management and member service.
               </p>
             </CardContent>
           </Card>
@@ -35,7 +40,8 @@ export default function AwardsPage() {
             </CardHeader>
             <CardContent>
               <p className="text-sm text-muted-foreground">
-                Recognized for outstanding contributions to community development and financial literacy programs.
+                Recognized for outstanding contributions to community
+                development and financial literacy programs.
               </p>
             </CardContent>
           </Card>
@@ -47,7 +53,8 @@ export default function AwardsPage() {
             </CardHeader>
             <CardContent>
               <p className="text-sm text-muted-foreground">
-                Honored for implementing innovative digital solutions to enhance member services.
+                Honored for implementing innovative digital solutions to enhance
+                member services.
               </p>
             </CardContent>
           </Card>
@@ -63,7 +70,9 @@ export default function AwardsPage() {
             </CardHeader>
             <CardContent>
               <p className="text-muted-foreground">
-                Certified for quality management systems, ensuring consistent delivery of services that meet member and regulatory requirements.
+                Certified for quality management systems, ensuring consistent
+                delivery of services that meet member and regulatory
+                requirements.
               </p>
             </CardContent>
           </Card>
@@ -73,7 +82,8 @@ export default function AwardsPage() {
             </CardHeader>
             <CardContent>
               <p className="text-muted-foreground">
-                Highest rating awarded by the Cooperative Development Authority for financial stability and operational excellence.
+                Highest rating awarded by the Cooperative Development Authority
+                for financial stability and operational excellence.
               </p>
             </CardContent>
           </Card>
@@ -93,10 +103,7 @@ export default function AwardsPage() {
             },
             {
               year: "2022",
-              awards: [
-                "Community Impact Award",
-                "Innovation Excellence Award",
-              ],
+              awards: ["Community Impact Award", "Innovation Excellence Award"],
             },
             {
               year: "2021",
@@ -122,5 +129,5 @@ export default function AwardsPage() {
         </div>
       </div>
     </div>
-  )
+  );
 }
