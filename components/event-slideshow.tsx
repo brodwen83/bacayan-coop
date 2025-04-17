@@ -18,7 +18,7 @@ const events = [
     image:
       "https://images.unsplash.com/photo-1511578314322-379afb476865?q=80&w=2069&auto=format&fit=crop",
     description:
-      "Nagsama-sama ang mga miyembro para sa taunang pagpupulong tungkol sa mga tagumpay ng kooperatiba at mga plano sa hinaharap.",
+      "Nag sama-sama ang mga miyembro para sa taunang pagpupulong tungkol sa mga tagumpay ng kooperatiba at mga plano sa hinaharap.",
   },
   {
     title: "Financial Literacy Workshop",
