@@ -40,10 +40,10 @@ export default function BoardOfDirectorsPage() {
 
       <div className="mb-12">
         <p className="text-muted-foreground">
-          Our Board of Directors brings together experienced professionals
+          {` Our Board of Directors brings together experienced professionals
           committed to BMPC's mission of financial empowerment and community
           development. Each member contributes unique expertise to guide our
-          cooperative's growth and success.
+          cooperative's growth and success.`}
         </p>
       </div>
 

@@ -9,11 +9,11 @@ export default function CompanyProfilePage() {
       <div className="mb-12">
         <h2 className="mb-4 text-2xl font-semibold">About BMPC</h2>
         <p className="text-muted-foreground">
-          Bacayan Multi-Purpose Cooperative (BMPC) is a member-owned financial
+          {`Bacayan Multi-Purpose Cooperative (BMPC) is a member-owned financial
           institution dedicated to providing accessible financial services and
           promoting economic development in our community. With over 25 years of
           service, we have grown to become a trusted partner in our members'
-          financial journey.
+          financial journey.`}
         </p>
       </div>
 
