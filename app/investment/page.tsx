@@ -28,11 +28,11 @@ export default function InvestmentPage() {
         <h1 className="my-8 text-4xl font-bold text-center">Investment</h1>
 
         <p className="text-muted-foreground mb-6 max-w-3xl mx-auto text-center">
-          Investment is a fundamental pillar in the growth of Bacayan
+          {` Investment is a fundamental pillar in the growth of Bacayan
           Multipurpose Cooperative. Members' pooled funds—through Share Capital,
           Time Deposits, and Regular Savings—enable the cooperative to provide
           loans and support community development, while giving back returns in
-          the form of dividends and interest.
+          the form of dividends and interest.`}
         </p>
 
         <p className="text-muted-foreground mb-12 max-w-3xl mx-auto text-center">
@@ -50,8 +50,8 @@ export default function InvestmentPage() {
                 <h2 className="text-xl font-semibold">Share Capital</h2>
               </div>
               <p>
-                As a member, you can make equity contributions to the
-                cooperative's capital fund through Share Capital.
+                {` As a member, you can make equity contributions to the
+                cooperative's capital fund through Share Capital.`}
               </p>
               <p className="text-muted-foreground">
                 The minimum required contribution is <strong>₱2,000.00</strong>,

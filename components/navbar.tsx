@@ -14,6 +14,7 @@ import Link from "next/link";
 import { useState } from "react";
 
 const aboutRoutes = [
+  { label: "Who We Are", href: "/about" },
   { label: "History", href: "/about/history" },
   { label: "Company Profile", href: "/about/company-profile" },
   { label: "Financial Report", href: "/about/financial-report" },
@@ -76,9 +77,9 @@ export default function Navbar() {
             <Button variant="outline" asChild>
               <Link href="/login">Login</Link>
             </Button>
-            <Button asChild>
+            {/* <Button asChild>
               <Link href="/register">Register</Link>
-            </Button>
+            </Button> */}
           </div>
         </div>
 
@@ -137,11 +138,11 @@ export default function Navbar() {
                     Login
                   </Link>
                 </Button>
-                <Button asChild className="w-full">
+                {/* <Button asChild className="w-full">
                   <Link href="/register" onClick={() => setIsOpen(false)}>
                     Register
                   </Link>
-                </Button>
+                </Button> */}
               </div>
             </SheetContent>
           </Sheet>

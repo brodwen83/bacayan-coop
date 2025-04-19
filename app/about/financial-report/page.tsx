@@ -1,10 +1,10 @@
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
-import { Download, TrendingUp, Wallet, Users } from "lucide-react"
+import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Download, TrendingUp, Users, Wallet } from "lucide-react";
 
 export default function FinancialReportPage() {
   return (
-    <div className="container py-12">
+    <div className="container mx-auto max-w-7xl py-12">
       <div className="mb-8 flex items-center justify-between">
         <h1 className="text-4xl font-bold">Financial Report</h1>
         <Button variant="outline">
@@ -62,7 +62,9 @@ export default function FinancialReportPage() {
             <CardContent>
               <div className="space-y-4">
                 <div className="flex items-center justify-between">
-                  <span className="text-sm text-muted-foreground">Loan Interest</span>
+                  <span className="text-sm text-muted-foreground">
+                    Loan Interest
+                  </span>
                   <div className="flex items-center">
                     <div className="h-2 w-32 overflow-hidden rounded-full bg-muted">
                       <div className="h-full w-[60%] bg-primary"></div>
@@ -71,7 +73,9 @@ export default function FinancialReportPage() {
                   </div>
                 </div>
                 <div className="flex items-center justify-between">
-                  <span className="text-sm text-muted-foreground">Investment Returns</span>
+                  <span className="text-sm text-muted-foreground">
+                    Investment Returns
+                  </span>
                   <div className="flex items-center">
                     <div className="h-2 w-32 overflow-hidden rounded-full bg-muted">
                       <div className="h-full w-[25%] bg-primary"></div>
@@ -80,7 +84,9 @@ export default function FinancialReportPage() {
                   </div>
                 </div>
                 <div className="flex items-center justify-between">
-                  <span className="text-sm text-muted-foreground">Service Fees</span>
+                  <span className="text-sm text-muted-foreground">
+                    Service Fees
+                  </span>
                   <div className="flex items-center">
                     <div className="h-2 w-32 overflow-hidden rounded-full bg-muted">
                       <div className="h-full w-[15%] bg-primary"></div>
@@ -111,5 +117,5 @@ export default function FinancialReportPage() {
         </div>
       </div>
     </div>
-  )
+  );
 }
